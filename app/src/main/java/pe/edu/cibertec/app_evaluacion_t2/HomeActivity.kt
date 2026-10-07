@@ -44,6 +44,10 @@ class HomeActivity : AppCompatActivity() {
                 }
 
                 R.id.nav_pregunta3 -> {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.contenedorFragment, FragmentPregunta3())
+                        .commit()
+
                     true
                 }
 
