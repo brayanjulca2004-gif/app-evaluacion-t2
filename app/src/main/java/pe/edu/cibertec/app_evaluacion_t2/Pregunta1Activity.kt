@@ -17,9 +17,14 @@ class Pregunta1Activity : AppCompatActivity(), View.OnClickListener {
 
 
     private val listaUsuariosMock = listOf(
-        Usuario("lezama", "lezama123"),
-        Usuario("alumno2", "clave456"),
-        Usuario("alumno3", "clave789")
+        Usuario("I202510545", "41107489"),
+        Usuario("I202330752", "77031337"),
+        Usuario("I202409433", "70635994"),
+        Usuario("I202502852", "932796645"),
+        Usuario("I202502630", "992830784"),
+        Usuario("I202316852", "969147541"),
+        Usuario("I201714859",  "70303886")
+
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
