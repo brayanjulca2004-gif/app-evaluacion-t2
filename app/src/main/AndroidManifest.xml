@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Appevaluaciont2">
         <activity
-            android:name=".MainActivity"
+            android:name=".Pregunta1Activity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>

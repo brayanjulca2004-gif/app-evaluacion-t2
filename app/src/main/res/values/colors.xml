@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados para tu diseño -->
+    <color name="azul_barra">#0288D1</color> <!-- Azul oscuro para la barra superior -->
+    <color name="celeste_boton">#03A9F4</color> <!-- Celeste para botones y acentos -->
 </resources>
