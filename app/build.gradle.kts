@@ -4,14 +4,16 @@ plugins {
 
 android {
     namespace = "pe.edu.cibertec.app_evaluacion_t2"
-    compileSdk {
-        version = release(37)
+    compileSdk = 37 // Subimos a 37 por exigencia de las librerías
+
+    buildFeatures {
+        viewBinding = true
     }
 
     defaultConfig {
         applicationId = "pe.edu.cibertec.app_evaluacion_t2"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 37 // Sincronizado con compileSdk
         versionCode = 1
         versionName = "1.0"
 
@@ -20,11 +22,14 @@ android {
 
     buildTypes {
         release {
-            optimization {
-                enable = false
-            }
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
