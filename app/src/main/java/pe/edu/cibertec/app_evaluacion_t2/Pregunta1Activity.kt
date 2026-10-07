@@ -21,7 +21,7 @@ class Pregunta1Activity : AppCompatActivity(), View.OnClickListener {
         Usuario("I202330752", "77031337"),
         Usuario("I202409433", "70635994"),
         Usuario("I202502852", "932796645"),
-        Usuario("I202502630", "992830784"),
+        Usuario("I202502852", "76823349"),
         Usuario("I202316852", "969147541"),
         Usuario("I201714859",  "70303886")
 
